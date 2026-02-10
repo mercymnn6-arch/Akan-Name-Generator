@@ -48,6 +48,7 @@ document.getElementById("akanForm").addEventListener("submit", function (event) 
         DD
     ) % 7;
 
+
     const dayIndex = Math.floor((dayOfWeek + 7) % 7);
 
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
