@@ -16,6 +16,7 @@ Moringa School
 Given valid birthdate and gender selection
 When user clicks "Generate Akan Name"
 Then correct Akan name displays
+
 Given invalid inputs (empty fields, day >31, month >12)
 When user submits form  
 Then alert shows error message
